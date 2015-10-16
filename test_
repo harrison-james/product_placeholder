@@ -1,0 +1,157 @@
+<?php
+session_start();
+$_SESSION["description"]=;
+$_SESSION["amount"]=$amount_;
+?>
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="heavy metal bracelets and necklaces" />
+<meta name="keywords" content="heavy metal bracelets and necklaces" />
+<meta name="author" content="heavy stainless steel bracelets and necklaces" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+
+<title>Heavy Metal Bracelets and Necklaces</title>
+
+</head>
+   <body>
+
+<?php
+session_start();
+$_SESSION["description"]=$desc_;
+$_SESSION["amount"]=$amount_;
+?>
+
+
+<div id="wrapper">
+
+
+<div id="logo_header">
+           <img src = "header_image_small.jpg">
+</div> <!-- end #logo_header -->
+
+
+<div id="content">
+<h1>Heavy Stainless Necklace -style Dash</h1>
+<p>Dash is 12mm wide, and available in 20inch and 24inch lengths <i>this Necklace is heavy and strong on style</i>. As always check out the width against the pound coin in the picture. Remember that Dash is partnered with Zane for <a href = "layered.htm">a three necklace layered bling look</a> why not buy all three together, a fantastic deal that no shop front jeweller could ever match. 
+</p>
+
+
+
+
+<div id="header">
+<h5>Heavy Necklace      <img src = "description/heavy_da.jpg"><img src = "description/length_da.jpg"><img src = "description/weight_da.jpg"><img src = "description/stainless.jpg"></h5>
+<a href="description/stainless-curb-necklace-large_da1.jpg"><img src = "description/stainless-curb-necklace-massive_da1.jpg" alt="heavy chunky curb chain necklace"></a><br>
+<a href="description/stainless-curb-necklace-large_da2.jpg"><img src = "description/stainless-curb-necklace-massive_da2.jpg" alt="heavy chunky curb chain necklace"></a>
+<a href="description/stainless-curb-necklace-large_da3.jpg"><img src = "description/stainless-curb-necklace-massive_da3.jpg"  alt="heavy chunky curb chain necklace"></a>
+ </div>
+
+
+Dash 20 inch x 12 mm &pound11.00<br>
+Dash 24 inch x 12 mm &pound12.75<br>
+ITEM LOCATION: HEYSHAM United Kingdom<br>
+Price includes Royal Mail First Class delivery<br>
+
+
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="VHJMQ2GMUM4X6">
+<table>
+<tr><td><input type="hidden" name="on0" value="choose length">choose length</td></tr><tr><td><select name="os0">
+	<option value="20 inch length">20 inch length &pound11.00 GBP</option>
+	<option value="24 inch length">24 inch length &pound12.75 GBP</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="GBP">
+<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
+
+
+
+<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_viewcart_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online.">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
+<p><h2>OR</h2>
+<p>
+<img src="c-line-large-secure.gif">
+<form name="nochexform" method="POST" action="https://secure.nochex.com">
+<input name="merchant_id" value="martin@zurizee.ch" type="hidden" />
+<input name="description" value="20 inch length" type="hidden" />
+<input name="amount" value="11.00" type="hidden" />
+
+
+<select name="description">
+<option value="20 inch length">20 inch length &pound11.00 GBP</option>
+<option value="24 inch length">24 inch length &pound12.75 GBP</option>
+</select>
+
+
+<input class="paybtn" style="margin-top: 1px; margin-left: 63px; position: absolute;" type="image" src="https://ssl.nochex.com/images/buttons/nochex_pay.png" alt="Pay using Nochex" />
+
+</form>
+
+<?php
+echo $_POST["description"];
+echo $_POST["amount"];
+?>
+
+
+
+<div id="small_block_icons">
+</div> <!-- end #small_block_icons -->
+</div><!-- end #content -->
+
+<div id="nav">
+<div id="nav_elem_6">
+          <a href="z_choose.htm">Help on: Necklace lengths for Men</a>
+          </div>
+<div id="nav_elem_5">
+          <a href="javascript:history.back()">Go Back</a>
+</script>
+          </div>
+</div> <!-- end #nav -->
+
+
+<div id="small_block_icons">
+</div> <!-- end #small_block_icons -->
+<div id="nav">
+           <div id="nav_elem_1">
+          <a href="z_guarantee.htm">Our Guarantee to You </a>
+          </div>
+           <div id="nav_elem_2">
+          <a href="z_compnpeop.htm">Company & People</a>
+          </div>
+<div id="nav_elem_3">
+          <a href="z_tnc.htm">Terms & Conditions</a>
+          </div>
+<div id="nav_elem_4">
+          <a href="z_contact.htm">Contact</a>
+          </div>
+
+</div> <!-- end #nav -->
+
+
+
+<i>All our heavy curb link necklaces</i>
+are superbly crafted in 316 stainless steel with a mirror polish finish.
+
+Copyright &copy 2015 Blingwithstyle</p>
+
+</div><!-- end #content -->
+
+      </div> <!-- End #wrapper -->
+   </body>
+</html>
