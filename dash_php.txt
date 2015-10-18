@@ -78,26 +78,27 @@ Price includes Royal Mail First Class delivery<br>
 <input name="description" value="20 inch length" type="hidden" />
 <input name="amount" value="11.00" type="hidden" />
 
+<!--explode("delimiter", string_name, limit)--> 
+
 
 <select name="description">
-<option value="20 inch length,11.00">20 inch length &pound11.00 GBP</option>
-<option value="24 inch length,12.75">24 inch length &pound12.75 GBP</option>
+<option value="20 inch length-11.00">20 inch length &pound11.00 GBP</option>
+<option value="24 inch length-12.75">24 inch length &pound12.75 GBP</option>
 </select>
+
+<?php
+list($_POST["description"], $_POST["amount"]) = explode("-",value,2);
+echo $_POST["description"];
+echo $_POST["amount"];
+?>
 
 
 <input class="paybtn" style="margin-top: 1px; margin-left: 63px; position: absolute;" type="image" src="https://ssl.nochex.com/images/buttons/nochex_pay.png" alt="Pay using Nochex" />
 
 </form>
 
-<?php
-echo $_POST["description"];
-echo $_POST["amount"];
-?>
-
-
 
 </div><!-- end #content -->
-
 </div><!-- end #content -->
 
       </div> <!-- End #wrapper -->
