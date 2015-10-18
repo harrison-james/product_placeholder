@@ -80,17 +80,15 @@ Price includes Royal Mail First Class delivery<br>
 
 <!--explode("delimiter", string_name, limit)--> 
 
-
 <select name="description">
 <option value="20 inch length-11.00">20 inch length &pound11.00 GBP</option>
 <option value="24 inch length-12.75">24 inch length &pound12.75 GBP</option>
-</select>
-
 <?php
 list($_POST["description"], $_POST["amount"]) = explode("-",value,2);
 echo $_POST["description"];
 echo $_POST["amount"];
 ?>
+</select>
 
 
 <input class="paybtn" style="margin-top: 1px; margin-left: 63px; position: absolute;" type="image" src="https://ssl.nochex.com/images/buttons/nochex_pay.png" alt="Pay using Nochex" />
