@@ -80,8 +80,8 @@ Price includes Royal Mail First Class delivery<br>
 
 
 <select name="description">
-<option value="20 inch length">20 inch length &pound11.00 GBP</option>
-<option value="24 inch length">24 inch length &pound12.75 GBP</option>
+<option value="20 inch length,11.00">20 inch length &pound11.00 GBP</option>
+<option value="24 inch length,12.75">24 inch length &pound12.75 GBP</option>
 </select>
 
 
