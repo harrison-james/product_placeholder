@@ -84,9 +84,7 @@ Price includes Royal Mail First Class delivery<br>
 <option value="20 inch length-11.00">20 inch length &pound11.00 GBP</option>
 <option value="24 inch length-12.75">24 inch length &pound12.75 GBP</option>
 <?php
-list($_POST["description"], $_POST["amount"]) = explode("-",value,2);
-echo $_POST["description"];
-echo $_POST["amount"];
+list($_POST['description'], $_POST['amount']) = explode("-",value,2);
 ?>
 </select>
 
