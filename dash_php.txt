@@ -27,8 +27,18 @@ $_SESSION["amount"]=$amount_;
 ?>
 
 
+<div id="wrapper">
+
 
 <div id="content">
+
+
+
+
+Dash 20 inch x 12 mm &pound11.00<br>
+Dash 24 inch x 12 mm &pound12.75<br>
+ITEM LOCATION: HEYSHAM United Kingdom<br>
+Price includes Royal Mail First Class delivery<br>
 
 
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -84,6 +94,45 @@ echo $_POST["amount"];
 
 
 
+<div id="small_block_icons">
+</div> <!-- end #small_block_icons -->
+</div><!-- end #content -->
+
+<div id="nav">
+<div id="nav_elem_6">
+          <a href="z_choose.htm">Help on: Necklace lengths for Men</a>
+          </div>
+<div id="nav_elem_5">
+          <a href="javascript:history.back()">Go Back</a>
+</script>
+          </div>
+</div> <!-- end #nav -->
+
+
+<div id="small_block_icons">
+</div> <!-- end #small_block_icons -->
+<div id="nav">
+           <div id="nav_elem_1">
+          <a href="z_guarantee.htm">Our Guarantee to You </a>
+          </div>
+           <div id="nav_elem_2">
+          <a href="z_compnpeop.htm">Company & People</a>
+          </div>
+<div id="nav_elem_3">
+          <a href="z_tnc.htm">Terms & Conditions</a>
+          </div>
+<div id="nav_elem_4">
+          <a href="z_contact.htm">Contact</a>
+          </div>
+
+</div> <!-- end #nav -->
+
+
+
+<i>All our heavy curb link necklaces</i>
+are superbly crafted in 316 stainless steel with a mirror polish finish.
+
+Copyright &copy 2015 Blingwithstyle</p>
 
 </div><!-- end #content -->
 
