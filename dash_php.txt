@@ -27,34 +27,8 @@ $_SESSION["amount"]=$amount_;
 ?>
 
 
-<div id="wrapper">
-
-
-<div id="logo_header">
-           <img src = "header_image_small.jpg">
-</div> <!-- end #logo_header -->
-
 
 <div id="content">
-<h1>Heavy Stainless Necklace -style Dash</h1>
-<p>Dash is 12mm wide, and available in 20inch and 24inch lengths <i>this Necklace is heavy and strong on style</i>. As always check out the width against the pound coin in the picture. Remember that Dash is partnered with Zane for <a href = "layered.htm">a three necklace layered bling look</a> why not buy all three together, a fantastic deal that no shop front jeweller could ever match. 
-</p>
-
-
-
-
-<div id="header">
-<h5>Heavy Necklace      <img src = "description/heavy_da.jpg"><img src = "description/length_da.jpg"><img src = "description/weight_da.jpg"><img src = "description/stainless.jpg"></h5>
-<a href="description/stainless-curb-necklace-large_da1.jpg"><img src = "description/stainless-curb-necklace-massive_da1.jpg" alt="heavy chunky curb chain necklace"></a><br>
-<a href="description/stainless-curb-necklace-large_da2.jpg"><img src = "description/stainless-curb-necklace-massive_da2.jpg" alt="heavy chunky curb chain necklace"></a>
-<a href="description/stainless-curb-necklace-large_da3.jpg"><img src = "description/stainless-curb-necklace-massive_da3.jpg"  alt="heavy chunky curb chain necklace"></a>
- </div>
-
-
-Dash 20 inch x 12 mm &pound11.00<br>
-Dash 24 inch x 12 mm &pound12.75<br>
-ITEM LOCATION: HEYSHAM United Kingdom<br>
-Price includes Royal Mail First Class delivery<br>
 
 
 <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -110,45 +84,6 @@ echo $_POST["amount"];
 
 
 
-<div id="small_block_icons">
-</div> <!-- end #small_block_icons -->
-</div><!-- end #content -->
-
-<div id="nav">
-<div id="nav_elem_6">
-          <a href="z_choose.htm">Help on: Necklace lengths for Men</a>
-          </div>
-<div id="nav_elem_5">
-          <a href="javascript:history.back()">Go Back</a>
-</script>
-          </div>
-</div> <!-- end #nav -->
-
-
-<div id="small_block_icons">
-</div> <!-- end #small_block_icons -->
-<div id="nav">
-           <div id="nav_elem_1">
-          <a href="z_guarantee.htm">Our Guarantee to You </a>
-          </div>
-           <div id="nav_elem_2">
-          <a href="z_compnpeop.htm">Company & People</a>
-          </div>
-<div id="nav_elem_3">
-          <a href="z_tnc.htm">Terms & Conditions</a>
-          </div>
-<div id="nav_elem_4">
-          <a href="z_contact.htm">Contact</a>
-          </div>
-
-</div> <!-- end #nav -->
-
-
-
-<i>All our heavy curb link necklaces</i>
-are superbly crafted in 316 stainless steel with a mirror polish finish.
-
-Copyright &copy 2015 Blingwithstyle</p>
 
 </div><!-- end #content -->
 
